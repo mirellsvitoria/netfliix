@@ -1,15 +1,50 @@
 header{
     background-color: black;
+     padding-left: 60px;
+     padding-top: 10px;
 }
 h1{
     color: red;
 }
 body{
   background-color: black;
+  margin: 0px;
 }
 h2{
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 p{
     color: white;
+    width: 500px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    height: 5px;
+    background-color: white;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h3{
+    color: white;
+    padding-left: 30px;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carrosel-de-filmes{
+    padding-left: 20px;
+     padding-right: 20px;
+   margin-top: 50px;
+}
+.filmes{
+    display: flex;
+    gap: 20px;
+overflow-x: auto;
+}
+.filmes img{
+    width: 300px;
 }
